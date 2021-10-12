@@ -53,7 +53,7 @@ waifu2x_converter_cpp:
   #output: null # path to output image file or directory  (you should use the full path)
   #input: null # (required) path to input image file or directory (you should use the full path)
 waifu2x_ncnn_vulkan:
-  path: '%LOCALAPPDATA%\video2x\waifu2x-ncnn-vulkan\waifu2x-ncnn-vulkan'
+  path: '/waifu2x-ncnn-vulkan-20200818-linux/waifu2x-ncnn-vulkan'
   v: null # verbose output
   #i: null # input-path: input image path (jpg/png/webp) or directory
   #o: null # output-path: output image path (jpg/png/webp) or directory
@@ -66,7 +66,7 @@ waifu2x_ncnn_vulkan:
   x: false # enable tta mode
   #f: png # output image format (jpg/png/webp, default=ext/png)
 srmd_ncnn_vulkan:
-  path: '%LOCALAPPDATA%\video2x\srmd-ncnn-vulkan\srmd-ncnn-vulkan'
+  path: '/srmd-ncnn-vulkan-20200818-linux/srmd-ncnn-vulkan'
   v: null # verbose output
   #i: null # input-path: input image path (jpg/png) or directory
   #o: null # output-path: output image path (png) or directory
@@ -79,7 +79,7 @@ srmd_ncnn_vulkan:
   x: false # enable tta mode
   #f: png # output image format (jpg/png/webp, default=ext/png)
 realsr_ncnn_vulkan:
-  path: '%LOCALAPPDATA%\video2x\realsr-ncnn-vulkan\realsr-ncnn-vulkan'
+  path: '/realsr-ncnn-vulkan-20200818-linux/realsr-ncnn-vulkan'
   v: null # verbose output
   #i: null # input-path: input image path (jpg/png) or directory
   #o: null # output-path: output image path (png) or directory
@@ -120,7 +120,7 @@ anime4kcpp:
   webVideo: null # process the video from URL
   alpha: false # preserve the Alpha channel for transparent image
 ffmpeg:
-  ffmpeg_path: '%LOCALAPPDATA%\video2x\ffmpeg\bin'
+  ffmpeg_path: '/usr/bin'
   intermediate_file_name: 'intermediate.mkv'
   # Step 1: Frame Extraction
   # extract all frames from original input into temporary directory
